@@ -1,0 +1,103 @@
+body{
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.picture-header {
+  border-radius: 12px 12px 0 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.order-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title, .description {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 30px;
+  color:hsl(223, 47%, 23%);
+}
+
+.description {
+  width: 300px;
+  color: rgb(105, 104, 104);
+}
+
+.plans{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 450px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.plan-picture {
+  margin-right: -8em;
+}
+
+.plan-type {
+  color:hsl(223, 47%, 23%);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.plan-price {
+  color: rgb(105, 104, 104);
+  font-size: 15px;
+}
+
+.change-plan  {
+  margin-left: -60px;
+  text-decoration: underline;
+  color:hsl(224, 100%, 34%);
+  font-weight: 700;
+}
+
+.payment-button {
+  background-color: hsl(224, 100%, 34%);
+  color: white;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  border: none;
+  width: 370px;
+  height: 45px;
+  border-radius: 9px;
+}
+
+.cancel-payment {
+  text-align: center;
+  margin-top: 2em;
+  color:rgb(105, 104, 104);
+  font-weight: 700;
+}
