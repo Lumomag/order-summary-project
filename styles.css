@@ -82,6 +82,7 @@ main {
   text-decoration: underline;
   color:hsl(224, 100%, 34%);
   font-weight: 700;
+  cursor: pointer;
 }
 
 .payment-button {
@@ -93,6 +94,7 @@ main {
   width: 370px;
   height: 45px;
   border-radius: 9px;
+  cursor: pointer;
 }
 
 .cancel-payment {
@@ -100,4 +102,5 @@ main {
   margin-top: 2em;
   color:rgb(105, 104, 104);
   font-weight: 700;
+  cursor: pointer;
 }
